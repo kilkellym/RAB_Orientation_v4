@@ -25,7 +25,7 @@ namespace RAB_Orientation
             Document doc = uiapp.ActiveUIDocument.Document;
 
             // Your code goes here
-            TaskDialog.Show("Test", "This is my second Revit add-in!");
+            TaskDialog.Show("Test", "This is my second Revit add-in! How do you like it?");
 
             return Result.Succeeded;
         }
